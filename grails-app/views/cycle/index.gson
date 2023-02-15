@@ -1,0 +1,8 @@
+import field.Cycle
+
+model {
+	Iterable<Cycle> cycleList
+}
+
+json tmpl.cycle(cycleList ?: [])
+

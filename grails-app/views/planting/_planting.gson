@@ -1,0 +1,7 @@
+import field.Planting
+
+model {
+	Planting planting
+}
+
+json g.render(planting, [resolveTemplate: false])

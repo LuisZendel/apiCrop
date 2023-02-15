@@ -1,0 +1,7 @@
+import field.Phenology
+
+model {
+	Phenology phenology
+}
+
+json tmpl.phenology(phenology)

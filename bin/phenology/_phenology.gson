@@ -1,0 +1,7 @@
+import field.Phenology
+
+model {
+	Phenology phenology
+}
+
+json g.render(phenology, [resolveTemplate: false])

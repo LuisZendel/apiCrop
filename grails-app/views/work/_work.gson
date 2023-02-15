@@ -1,0 +1,7 @@
+import field.Work
+
+model {
+	Work work
+}
+
+json g.render(work, [resolveTemplate: false])

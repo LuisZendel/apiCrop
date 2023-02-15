@@ -1,0 +1,8 @@
+import field.Work
+
+model {
+	Iterable<Work> workList
+}
+
+json tmpl.work(workList ?: [])
+

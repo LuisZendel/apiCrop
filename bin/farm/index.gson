@@ -1,0 +1,8 @@
+import field.Farm
+
+model {
+	Iterable<Farm> farmList
+}
+
+json tmpl.farm(farmList ?: [])
+

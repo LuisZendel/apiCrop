@@ -1,0 +1,7 @@
+import field.Cycle
+
+model {
+	Cycle cycle
+}
+
+json g.render(cycle, [resolveTemplate: false])

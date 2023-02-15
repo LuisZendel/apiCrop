@@ -1,0 +1,7 @@
+import field.Soil
+
+model {
+	Soil soil
+}
+
+json tmpl.soil(soil)

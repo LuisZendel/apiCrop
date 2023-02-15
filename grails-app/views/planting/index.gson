@@ -1,0 +1,8 @@
+import field.Planting
+
+model {
+	Iterable<Planting> plantingList
+}
+
+json tmpl.planting(plantingList ?: [])
+

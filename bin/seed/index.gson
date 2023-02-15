@@ -1,0 +1,8 @@
+import field.Seed
+
+model {
+	Iterable<Seed> seedList
+}
+
+json tmpl.seed(seedList ?: [])
+

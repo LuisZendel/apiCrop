@@ -1,0 +1,8 @@
+import field.Material
+
+model {
+	Iterable<Material> materialList
+}
+
+json tmpl.material(materialList ?: [])
+

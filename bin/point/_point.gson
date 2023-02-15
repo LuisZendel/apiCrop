@@ -1,0 +1,7 @@
+import field.Point
+
+model {
+	Point point
+}
+
+json g.render(point, [resolveTemplate: false])

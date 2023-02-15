@@ -1,0 +1,7 @@
+import field.Seed
+
+model {
+	Seed seed
+}
+
+json g.render(seed, [resolveTemplate: false])

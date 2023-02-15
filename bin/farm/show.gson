@@ -1,0 +1,7 @@
+import field.Farm
+
+model {
+	Farm farm
+}
+
+json tmpl.farm(farm)

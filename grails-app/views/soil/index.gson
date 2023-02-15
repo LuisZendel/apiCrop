@@ -1,0 +1,8 @@
+import field.Soil
+
+model {
+	Iterable<Soil> soilList
+}
+
+json tmpl.soil(soilList ?: [])
+

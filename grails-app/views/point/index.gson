@@ -1,0 +1,8 @@
+import field.Point
+
+model {
+	Iterable<Point> pointList
+}
+
+json tmpl.point(pointList ?: [])
+

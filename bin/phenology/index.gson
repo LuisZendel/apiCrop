@@ -1,0 +1,8 @@
+import field.Phenology
+
+model {
+	Iterable<Phenology> phenologyList
+}
+
+json tmpl.phenology(phenologyList ?: [])
+
